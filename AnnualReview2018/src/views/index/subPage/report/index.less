@@ -1,0 +1,108 @@
+@import "../../../../assets/less/variable.less";
+
+.report {
+    z-index: -1;
+    background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/share-bg2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    .cow {
+        position: absolute;
+        top: 192px;
+        right: 16px;
+        z-index: 3;
+        width: 76px;
+        height: 76px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/cow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    // 证书
+    .certificate {
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        z-index: 2;
+        margin-left: -138px;
+        width: 276px;
+        height: 452px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/certificate.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        .title {
+            margin-top: 18px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+        .medal {
+            position: absolute;
+            top: 75px;
+            left: 50%;
+            margin-left: -85px;
+            width: 170px;
+            height: 170px;
+        }
+        .medal-img {
+            vertical-align: top;
+            width: 100%;
+        }
+        .text-top {
+            line-height: 1.5;
+            font-size: 16px;
+            font-weight: 400;
+            color: #444;
+        }
+        .text-main {
+            margin-top: 236px;
+            padding-left: 6px;
+        }
+        .text-red {
+            display: inline-block;
+            padding: 0 2px;
+            color: #d63131;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .text {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    }
+    .cre-text {
+        position: absolute;
+        bottom: 130px;
+        right: 20px;
+        z-index: 2;
+        font-size: 12px;
+        line-height: 1.4;
+        color: #fff;
+    }
+    // 二维码
+    .qrcode {
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        bottom: 7px;
+        right: 38px;
+        z-index: 2;
+        canvas {
+            vertical-align: top;
+            width: 100%;
+            border: 2px solid #fff;
+        }
+    }
+}
+
+// 兼容华为奇怪分辨率的手机
+@media (width: 360px) and (max-height: 566px) {
+    .report {
+        .cre-text {
+            bottom: 118px;
+        }
+    }
+}

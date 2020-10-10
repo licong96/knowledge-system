@@ -1,0 +1,422 @@
+@import "../../../assets/scss/variables/color.scss";
+
+.c-knowledge {
+  position: relative;
+  background-color: #fff;
+
+  &.knowledge--home {
+    .top-section {
+      background-image: url("https://source.tutorabc.com.cn/ext/images/website/tutorabc/upgrade-system/home-bg-new.png");
+    }
+  }
+
+  .top-section {
+    position: relative;
+    height: 300px;
+    background: url("https://source.tutorabc.com.cn/ext/images/website/tutorabc/upgrade-system/knowledge-bg.png") no-repeat top left / 100%;
+  }
+
+  .user__level {
+    position: absolute;
+    top: 52px;
+    left: 95px;
+    z-index: 2;
+    font-size: 20px;
+    font-family: SFUIText-HeavyItalic, SFUIText, Tahoma;
+    font-weight: bold;
+    color: rgba(255, 92, 20, 1);
+    line-height: 24px;
+    transform: skewX(-10deg);
+    letter-spacing: 1px;
+  }
+
+  .user__head {
+    position: absolute;
+    // bottom: 140px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -23px;
+    width: 46px;
+    height: 46px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 6px 8px 0px rgba(209, 213, 221, 0.43), 0px 0px 1px 0px rgba(10, 31, 68, 0.08);
+    filter: drop-shadow(0px 6px 8px 0px rgba(209, 213, 221, 0.43));
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      z-index: 1;
+      margin-left: -6px;
+      width: 0;
+      height: 0;
+      border-width: 6px;
+      border-style: solid;
+      border-color: #fff transparent transparent;
+    }
+  }
+
+  .head-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .cont__certificate {
+    position: absolute;
+    top: 0;
+    right: 16px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 28px;
+    background: linear-gradient(90deg, #FF8D28 0%, #FF2A1E 100%);
+    box-shadow: 0px 7px 12px 0px rgba(255, 92, 20, 0.14);
+    border-radius: 14px;
+  }
+
+  .icon__certificate,
+  .icon__suggest {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("https://source.tutorabc.com.cn/ext/images/website/tutorabc/upgrade-system/knowledge-icon-3.png?v=1") no-repeat center / 100%;
+  }
+
+  .certificate__text {
+    margin-left: 4px;
+    font-size: 10px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 254, 254, 1);
+    line-height: 14px;
+  }
+
+  .icon__suggest {
+    margin-top: 1px;
+    background-image: url("https://source.tutorabc.com.cn/ext/images/website/tutorabc/upgrade-system/knowledge-icon-1.png?v=1");
+  }
+
+  .cont__suggest {
+    position: absolute;
+    top: 84px;
+    left: 21px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none;
+    &::after {
+      content: "";
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      bottom: -10px;
+      left: -5px;
+    }
+  }
+
+  .suggest__text {
+    padding-left: 5px;
+    font-size:12px;
+    font-family: PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(255, 92, 20,1);
+  }
+
+  .line-wrap {
+    display: flex;
+    padding: 0 12px;
+    width: 100%;
+    height: 100%;
+    font-family: Avenir-Heavy, Avenir;
+
+    .line {
+      flex: 1;
+      padding: 0 3px;
+
+      &.active {
+        .line__black {
+          background: linear-gradient(144deg, #FF8D28 0%, #FF2A1E 100%);
+          box-shadow: 0px 8px 10px 0px rgba(255, 92, 20, 0.14);
+          transition: all .3s;
+        }
+
+        .line__num {
+          font-size: 17px;
+          font-weight: 800;
+          color: rgba(255, 92, 20, 1);
+          // transition: all .3s;
+        }
+      }
+
+      &:nth-child(1) {
+        .line__text {
+          display: block;
+          padding-left: 4px;
+          width: 52px;
+          word-break: normal;
+          white-space: normal;
+        }
+      }
+
+      &:nth-child(6) {
+        .line__text {
+          display: block;
+        }
+      }
+
+      &:nth-child(9) {
+        .line__text {
+          display: block;
+        }
+      }
+
+      &:nth-child(12) {
+        .line__text {
+          display: block;
+        }
+      }
+    }
+
+    .line__main {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .line__text {
+      display: none;
+      position: absolute;
+      left: 50%;
+      z-index: 2;
+      font-size: 10px;
+      font-family: PingFangSC-Light, PingFang SC;
+      font-weight: 300;
+      color: #8A94A6;
+      line-height: 14px;
+      word-break: keep-all;
+      white-space: nowrap;
+      transform: translate3d(-50%, 0, 0);
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -22px;
+        left: 50%;
+        width: 1px;
+        height: 12px;
+        background-color: #F1F2F4;
+        transform: translate3d(-50%, 0, 0);
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        width: 4px;
+        height: 4px;
+        margin-left: -2px;
+        border-radius: 4px;
+        border: 1px solid #F1F2F4;
+        background-color: #fff;
+      }
+    }
+
+    .line__black {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 3;
+      width: 100%;
+      background-color: #F1F2F4;
+      border-radius: 12px;
+    }
+
+    .line__num {
+      position: absolute;
+      bottom: -30px;
+      left: 0;
+      width: 100%;
+      font-size: 10px;
+      font-weight: 800;
+      color: rgba(10, 31, 68, 1);
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+
+  .scrollbar-section {
+    position: relative;
+    margin-top: 63px;
+    padding: 0 15px;
+  }
+
+  .scrollbar {
+    position: relative;
+    margin-top: 63px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 6px;
+    background: rgba(241, 242, 244, .5);
+    border-radius: 8px;
+
+    .bar {
+      position: absolute;
+      top: -3px;
+      left: 0;
+      margin-left: -7px;
+      width: 14px;
+      height: 12px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 8px 0px rgba(255, 210, 215, 1);
+      border-radius: 7px;
+      border: 4px solid rgba(255, 92, 20, 1);
+
+      &.active {
+        box-shadow: 0px 0px 0px 6px rgba(255, 210, 215, .5);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: -14px;
+        right: -14px;
+        bottom: -14px;
+        left: -14px;
+      }
+
+      // &::before {
+      // 	content: "";
+      // 	position: absolute;
+      // 	top: -150px;
+      // 	left: 0;
+      // 	margin-left: 2px;
+      // 	width: 1px;
+      // 	height: 200px;
+      // 	background: black;
+      // }
+    }
+  }
+
+  .content {
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+    // min-height: 700px;
+  }
+
+  .content__item {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    padding: 0 16px 100px 16px;
+
+    .level {
+      display: flex;
+      align-items: center;
+    }
+
+    .level__num {
+      font-size: 18px;
+      font-family: SFUIText-HeavyItalic, SFUIText, Tahoma;
+      font-weight: bold;
+      color: rgba(255, 92, 20, 1);
+      line-height: 21px;
+      transform: skewX(-10deg);
+      letter-spacing: 1px;
+    }
+
+    .level__label {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 6px;
+      width: 52px;
+      height: 18px;
+      font-size: 10px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(138, 148, 166, 1);
+      line-height: 14px;
+      background: rgba(241, 242, 244, 1);
+      border-radius: 10px 10px 10px 0;
+    }
+
+    .power {
+      margin-top: 24px;
+    }
+
+    .power__title,
+    .know__title {
+      padding-left: 24px;
+      font-size: 14px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(10, 31, 68, 1);
+      line-height: 20px;
+      background-image: url("https://source.tutorabc.com.cn/ext/images/website/tutorabc/upgrade-system/knowledge-icon-2.png");
+      background-repeat: no-repeat;
+      background-size: 18px;
+      background-position: left center;
+    }
+
+    .power__content,
+    .know__content {
+      margin-top: 12px;
+      padding: 16px;
+      background: rgba(241, 242, 244, .3);
+      border-radius: 8px;
+    }
+
+    .power__text-1 {
+      font-size: 16px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: rgba(10, 31, 68, 1);
+      line-height: 22px;
+    }
+
+    .power__text-2 {
+      margin-top: 8px;
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(138, 148, 166, 1);
+      line-height: 20px;
+    }
+
+    .know {
+      margin-top: 16px;
+    }
+
+    .know__block {
+      display: flex;
+    }
+
+    .know__block+.know__block {
+      margin-top: 12px;
+    }
+
+    .know__right {
+      flex: 1;
+    }
+
+    .know__text {
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(138, 148, 166, 1);
+      line-height: 22px;
+    }
+  }
+}

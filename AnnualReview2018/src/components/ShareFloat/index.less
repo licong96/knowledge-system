@@ -1,0 +1,29 @@
+
+.share-fixed {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+    text-align: center;
+    transform: translateX(104%);
+    transition: transform .3s;
+    &.show {
+        transform: translateX(0);
+    }
+    .share__gif {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -40px;
+        width: 80px;
+    }
+    .share__text {
+        margin-top: 80px;
+        padding: 8px;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 20px 0 0 20px;
+        background-color: #ff4b59;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    }
+}

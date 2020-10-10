@@ -1,0 +1,52 @@
+<div class="bg-color"></div>
+<div class="bg-img"></div>
+
+{{!-- 下滑按钮 --}}
+<div class="down js_down">
+    <img class="down-icon" src="//source.tutorabc.com.cn/ext/images/website/junior/linkage_page/h5/annualReview/arrow.png" alt="">
+</div>
+
+{{!-- 邮件 --}}
+<section class="mail-wrap">
+    <div class="mail">
+        <div class="mail-cover"></div>
+    </div>
+</section>
+<div class="handrail"></div>
+
+<div class="bg-img-2"></div>
+
+{{!-- 证书 --}}
+<div class="certificate">
+    <div class="medal">
+        <img class="medal-img" src="{{ClientTitle}}" alt="">
+    </div>
+    <div class="cow"></div>
+    <div class="text-main">
+        <p class="text-top"><span class="text-name js_user-name">{{userInfo.cname}}</span>小朋友：</p>
+        <p class="text-top">Congratulations！</p>
+        <p class="text">恭喜你圆满完成2018年的学习。</p>
+        <p class="text">vipJr特别授予你<span class="text-red">{{content.ClientTitle}}</span>称号！</p>
+        <p class="text">你的努力超过了<span class="text-red">{{content.BeyondPercent}}%</span>的小朋友，</p>
+        <p class="text">希望你2019年继续加油，</p>
+        <p class="text">vipJr将陪伴你一路成长。</p>
+    </div>
+</div>
+
+{{!-- 彩带 --}}
+<div class="fireworks fireworks-left-top"></div>
+<div class="fireworks fireworks-left-bottom"></div>
+<div class="fireworks fireworks-right-top"></div>
+<div class="fireworks fireworks-right-bottom"></div>
+<div class="fireworks fireworks-right-middle"></div>
+
+<section class="group-foot">
+    <div class="info-wrap">
+        <div class="more-btn js_more">>更多奖励<</div>
+        <div class="page-view">人气值<i class="hot-icon"></i>:<span class="js_popularity">{{total}}</span>人</div>
+    </div>
+    <div class="btn-wrap">
+        <button class="btn js_report"></button>
+        <button class="btn js_share"></button>
+    </div>
+</section>

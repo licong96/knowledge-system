@@ -1,0 +1,304 @@
+@import "./animation.less";
+@import "../../../../assets/less/variable.less";
+
+.screen-8 {
+    z-index: 2;
+    .bg-color {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+    }
+    .bg-img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 522px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/botany.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        -skrollr-animation-name: screen8BgImg;
+    }
+    .mail-wrap {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        z-index: 1;
+        margin-left: -84px;
+        width: 169px;
+        height: 700px;
+    }
+    .mail {
+        width: 100%;
+        height: 100%;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/mail.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform-style: preserve-3d;
+        perspective: 800;
+        -skrollr-animation-name: mail;
+    }
+    .mail-cover {
+        position: absolute;
+        top: 318px;
+        left: 8px;
+        width: 155px;
+        height: 167px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/mail-cover.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform-origin: center top;
+        -skrollr-animation-name: mailCover;
+    }
+    .handrail {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 201px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/handrail.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 30px;
+        -skrollr-animation-name: handrail;
+    }
+
+    // 证书
+    .certificate {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        z-index: 2;
+        // margin-left: -154px;
+        margin-left: -150px;
+        // width: 309px;
+        // height: 480px;
+        width: 300px;
+        height: 470px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/certificate.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        -skrollr-animation-name: certificate;
+        .title {
+            margin-top: 18px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+        .medal {
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            margin-left: -90px;
+            width: 180px;
+            height: 180px;
+        }
+        .medal-img {
+            vertical-align: top;
+            width: 100%;
+        }
+        .cow {
+            position: absolute;
+            top: 192px;
+            right: 16px;
+            z-index: 3;
+            width: 90px;
+            height: 90px;
+            background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/cow.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .text-top {
+            line-height: 1.5;
+            font-size: 16px;
+            font-weight: 400;
+            color: #444;
+        }
+        .text-main {
+            margin-top: 250px;
+        }
+        .text-red {
+            display: inline-block;
+            padding: 0 2px;
+            color: #d63131;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .text {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .text__red {
+            font-weight: 500;
+            color: @theme;
+        }
+        .text__blue {
+            font-weight: 500;
+            color: @color-blue;
+        }
+    }
+    .bg-img-2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/bg-img.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        -skrollr-animation-name: certificateBgImg;
+    }
+    // 彩带
+    .fireworks {
+        position: absolute;
+        z-index: 3;
+        background-repeat: no-repeat;
+        background-size: contain;
+        // transform-origin: center top;
+        -skrollr-animation-name: screen8fireworks;
+        &.fireworks-left-top {
+            top: 24px;
+            left: 0;
+            width: 126px;
+            height: 189px;
+            background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/fireworks-left-top.png');
+        }
+        &.fireworks-left-bottom {
+            left: 10px;
+            top: 420px;
+            width: 125px;
+            height: 127px;
+            background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/fireworks-left-bottom.png');
+        }
+        &.fireworks-right-top {
+            top: 36px;
+            right: 0;
+            width: 74px;
+            height: 99px;
+            background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/fireworks-right-top.png');
+        }
+        &.fireworks-right-middle {
+            top: 50%;
+            right: 24px;
+            margin-top: -18px;
+            width: 32px;
+            height: 37px;
+            background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/fireworks-right-middle.png');
+        }
+        &.fireworks-right-bottom {
+            right: 0;
+            bottom: 74px;
+            width: 83px;
+            height: 104px;
+            background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/fireworks-right-bottom.png');
+        }
+    }
+
+    // 底部操作按钮组
+    .group-foot {
+        position: absolute;
+        top: 490px;
+        width: 100%;
+        z-index: 3;
+    }
+    .info-wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+    .more-btn,
+    .page-view  {
+        height: 28px;
+        line-height: 29px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        background-image: url('../../../../assets/images/screen-8/label.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        -skrollr-animation-name: opacityBtn;
+    }
+    .more-btn {
+        width: 80px;
+        min-width: 125px;
+        text-decoration: underline;
+    }
+    .page-view {
+        padding: 0 16px;
+        min-width: 125px;
+    }
+    .hot-icon {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-image: url('../../../../assets/images/screen-1/hot.png');
+        background-size: 14px 14px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    // 按钮
+    .btn-wrap {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        width: 100%;
+        -skrollr-animation-name: certificateBtn;
+        .btn {
+            width: 140px;
+            height: 54px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-color: transparent;
+            &:nth-child(1) {
+                background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/btn-1.png');
+                &:active {
+                    animation: btn 1s;
+                }
+            }
+            &:nth-child(2) {
+                background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/AnnualReview2018/screen-8/btn-2.png');
+                animation: btn 1s infinite;
+            }
+        }
+    }
+}
+
+@keyframes btn {
+    0%, 100% {
+        transform: scale(1.06);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+
+// 兼容华为奇怪分辨率的手机
+@media (width: 360px) and (max-height: 566px) {
+    .screen-8 {
+        .certificate {
+            margin-left: -144px;
+            width: 288px;
+        }
+        .group-foot {
+            top: auto;
+            bottom: 4px;
+        }
+        .btn-wrap {
+            margin-top: 6px;
+            .btn {
+                width: 120px;
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.landscape {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 18;
+  background-color: #000;
+  .landscape__box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+  .landscape__img {
+    width: 48px;
+    max-width: 8%;
+    animation: maskAni 1.5s ease infinite alternate
+  }
+  .landscape__text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .landscape--phone {
+    display: none;
+  }
+}
+
+// @media (orientation: landscape) {
+//   .landscape {
+//       display: block;
+//   }
+// }
+// @media (orientation: portrait) {
+//   .landscape {
+//       display: none;
+//   }
+// }
+
+@media only screen and (min-width: 580px) {
+  .landscape {
+    display: block;
+  }
+}
+
+@-webkit-keyframes maskAni {
+  0%,
+  30% {
+      -webkit-transform: rotate(-90deg);
+  }
+
+  100%,
+  70% {
+      -webkit-transform: rotate(0);
+  }
+}
