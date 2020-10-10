@@ -1,0 +1,35 @@
+
+
+.modal-share {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 19;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  // animation: fadeIn 0.3s;
+  .modal__box {
+      position: absolute;
+      top: 10px;
+      right: 38px;
+      padding-top: 120px;
+      width: 578px;
+      height: 351px;
+      line-height: 1.5;
+      text-align: center;
+      background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/modal/share.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      animation: scale .4s;
+      transform-origin: right top;
+  }
+  .text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #810101;
+  }
+  .text--red {
+    color: #f01010;
+  }
+}

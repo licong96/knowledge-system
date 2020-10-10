@@ -1,0 +1,35 @@
+// Floats
+// -------------------------
+
+.clearfix {
+    @include clearfix;
+}
+
+.center-block {
+    @include center-block;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+// show or hide
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden;
+}

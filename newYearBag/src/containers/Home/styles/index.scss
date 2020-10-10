@@ -1,0 +1,89 @@
+
+.home {
+    .top {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 38px;
+        .btn {
+            width: 216px;
+            height: 77px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            &.btn-rule {
+                background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/home/btn-rule.png');
+            }
+            &.btn-among {
+                background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/home/btn-among.png');
+            }
+        }
+    }
+    .logo {
+        width: 170px;
+        height: 77px;
+        background: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/vipJr-logo.png') no-repeat center;
+        background-size: contain;
+    }
+    .main-text {
+        display: block;
+        margin: 48px auto 0 auto;
+        width: 520px;
+    }
+    .little-cow {
+        display: block;
+        margin: 16px auto;
+        width: 304px;
+    }
+    .btn-wrap {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        &.over {
+            .btn-start,
+            .btn-share {
+                display: none;
+            }
+            .btn-over {
+                display: block;
+            }
+        }
+    }
+    .btn-start,
+    .btn-share {
+        display: block;
+        width: 320px;
+        height: 121px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/home/btn-start-home.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .btn-share {
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/home/btn-share-home.png');
+    }
+    .btn-over {
+        display: none;
+        width: 408px;
+        height: 124px;
+        background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/home/over.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .foot-text {
+        text-align: center;
+        font-size: 28px;
+        color: #f8e8b0;
+    }
+    .shade {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 18;
+        background-color: rgba(0,0,0,.75);
+        animation: fadeIn 0.3s;
+    }
+}

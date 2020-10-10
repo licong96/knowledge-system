@@ -1,0 +1,35 @@
+
+.toast-wrap {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  pointer-events: none;
+  &.show {
+    display: block;
+    .toast__text {
+      animation: toast .3s;
+    }
+  }
+  .toast__text {
+    display: inline-block;
+    padding: 18px 38px;
+    font-size: 28px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 40px;
+    animation: toast .3s;
+  }
+}
+
+@keyframes toast {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

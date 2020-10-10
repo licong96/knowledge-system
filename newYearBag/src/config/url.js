@@ -1,0 +1,1 @@
+export const IMAGE_PATH = '//source.tutorabc.com.cn/ext/images/website/vjr/landingpage/faq/';

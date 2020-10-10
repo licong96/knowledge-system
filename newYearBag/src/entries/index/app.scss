@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #fd0516;
+    background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/bg.jpg?v=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    // max-width: 480px;
+}

@@ -1,0 +1,27 @@
+.alert-game-play {
+    position: absolute;
+    top: 286px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -335px;
+    width: 670px;
+    height: 747px;
+    background: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/canvas/panel.png') no-repeat;
+    background-size: contain;
+    .text {
+        margin-top: 88px;
+        text-align: center;
+        line-height: 58px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #7f191e;
+    }
+    .btn-ok {
+        display: block;
+        margin: 38px auto 0 auto;
+        width: 112px;
+        height: 114px;
+        background: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/icon-ok.png') no-repeat center;
+        background-size: contain;
+    }
+}   

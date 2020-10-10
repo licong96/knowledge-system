@@ -1,0 +1,31 @@
+
+.modal-share-success {
+    text-align: center;
+    width: 548px;
+    height: 343px;
+    background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/modal/share-success.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    .not-text {
+      margin-top: 120px;
+      width: 239px;
+    }
+    .text {
+      margin-top: 10px;
+      line-height: 1.5;
+      font-size: 24px;
+      color: #810101;
+    }
+    .btn__ok {
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      z-index: 1;
+      margin-left: -57px;
+      width: 114px;
+      height: 117px;
+      background-image: url('https://source.tutorabc.com.cn/ext/images/website/vjr/landingpage/h5/newYearBag/icon-ok.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+}
