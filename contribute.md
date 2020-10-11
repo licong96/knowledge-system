@@ -27,7 +27,7 @@
 * 写过单元测试，在项目中会加入`Sonar`做代码质量检测，`Sentry`做前端异常监控。
 
 ## 开源项目
-* [动效展示项目]()
+* [全屏动画](https://licong96.github.io/annualReview2018/)
 * [2018年开源的三级联动城市选择器插件](https://github.com/licong96/lc-city-selector)
 * [2017年开发的一个纯前端商城项目](https://github.com/licong96/women-wear-mall)
 
