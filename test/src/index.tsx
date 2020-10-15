@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './questions';
+import './canvas/move';
 
 ReactDOM.render(
   <React.StrictMode>
