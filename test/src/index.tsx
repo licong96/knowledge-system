@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './questions';
-import './canvas/move';
+// import './questions';
+// import './canvas/move';
+import './write/throttle';
 
 ReactDOM.render(
   <React.StrictMode>
