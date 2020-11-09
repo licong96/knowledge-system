@@ -13,6 +13,8 @@
 
 [提高幸福感的 9 个 CSS 技巧](https://juejin.im/post/5cb45a06f265da03474df54e)
 
+[CSS知识点及技巧整理](https://juejin.im/post/6844903567707357197)
+
 
 ## JS
 
@@ -57,6 +59,6 @@
 ## 更多集合
 [进阶指南](https://www.cxymsg.com/guide/)
 [前端进阶之路](https://yuchengkai.cn/docs/frontend/)
-[参考知识体系](https://www.processon.com/view/link/5c64d495e4b025fe7c964ca0#map)
+[参考体系](https://www.processon.com/view/link/5c64d495e4b025fe7c964ca0#map)
 
 
