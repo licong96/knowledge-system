@@ -63,6 +63,8 @@
 
 [跟着考点学](https://juejin.im/post/6844903577220349959)
 
+[重学前端](https://time.geekbang.org/column/article/82764)
+
 [参考体系](https://www.processon.com/view/link/5c64d495e4b025fe7c964ca0#map)
 
 
