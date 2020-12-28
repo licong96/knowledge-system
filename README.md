@@ -6,6 +6,7 @@
     * 渲染过程
     
   * HTTP
+    * [awesome-http](https://github.com/semlinker/awesome-http)
   
   * 浏览器引擎
   
