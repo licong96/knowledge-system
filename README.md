@@ -80,6 +80,8 @@
   * 函数式编程
 
 ## 数据结构与算法
+  
+  * [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 
 ## 设计模式
 
