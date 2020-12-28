@@ -44,6 +44,14 @@
  * [JavaScript设计模式系列](https://github.com/ZengLingYong/Blog)
  * [JavaScript常用八种继承方案](https://juejin.im/post/5bcb2e295188255c55472db0)
  * [图片懒加载](https://github.com/dwqs/blog/issues/74)
+ 
+ * JS相关问题
+ 
+   * [javascript-questions](https://github.com/yangshun/front-end-interview-handbook/blob/master/contents/zh/javascript-questions.md)
+   
+   * [fe-interview](https://github.com/haizlin/fe-interview/blob/master/category/js.md)
+   
+   * [FE-Interview](https://github.com/lgwebdream/FE-Interview)
   
 
 ## React
@@ -52,6 +60,10 @@
     * [React 原理解析](https://yuchengkai.cn/react/)
   
   * Redux
+  
+  * [react-interview](https://github.com/Pau1fitz/react-interview/blob/master/zh-cn.md)
+  
+  * [reactjs-interview-questions](https://github.com/semlinker/reactjs-interview-questions)
   
 
 ## TypeScript
