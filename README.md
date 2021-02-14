@@ -103,10 +103,11 @@
 
 
 ## 音视频
+
 [浏览器禁止声音自动播放之后](https://juejin.im/post/5af7129bf265da0b8262df4c)
 
 
-## 更多集合
+## 集合
 [进阶指南](https://www.cxymsg.com/guide/)
 
 [前端进阶之路](https://yuchengkai.cn/docs/frontend/)
