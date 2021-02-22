@@ -43,6 +43,7 @@
 
  * [JS基础系列-冴羽](https://github.com/mqyqingfeng/Blog)
  * [JS基础系列-木易杨](https://github.com/yygmind/blog)
+ * [原生JS灵魂之问(下)](https://juejin.cn/post/6844904004007247880)
  * [JavaScript设计模式系列](https://github.com/ZengLingYong/Blog)
  * [JavaScript常用八种继承方案](https://juejin.im/post/5bcb2e295188255c55472db0)
  * [图片懒加载](https://github.com/dwqs/blog/issues/74)
